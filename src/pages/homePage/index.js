@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid } from "@mui/material";
 import FirstBanner from "../../components/firstBanner";
+import SecondBanner from "../../components/secondBanner";
 import NavBar from "../../components/navBar";
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
     <Grid>
       <NavBar />
       <FirstBanner />
+      <SecondBanner/>
     </Grid>
   );
 };
