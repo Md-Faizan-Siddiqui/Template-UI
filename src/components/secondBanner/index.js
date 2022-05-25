@@ -2,12 +2,13 @@ import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import Container from "../container";
 import Ellipse from "../../assets/Ellipse.png";
+import SecondBoxDote from "../../assets/secondBoxDote.png";
 
 const SecondBanner = () => {
   return (
     <Box
       sx={{
-        mt: "70px",
+        my: "70px",
         px: "80px",
       }}
     >
@@ -68,20 +69,12 @@ const SecondBanner = () => {
               }}
             ></Box>
           </Grid>
-          <Grid
-            item
-            xs="12"
-            md="7"
-            //   border="1px solid black"
-          >
+          <Grid item xs="12" md="7">
             <Box
               sx={{
                 width: "100%",
                 minHeight: "458px",
-                // border: "1px Solid red",
                 display: "flex",
-                // justifyContent: "center",
-                // alignItems: "center",
                 position: "relative",
               }}
             >
@@ -93,11 +86,7 @@ const SecondBanner = () => {
                   position: "absolute",
                   width: "487px",
                   height: "458px",
-                  //   maxHeight:"100%",
                   display: { xs: "none", md: "block" },
-                  // display: { xs: "none", md: "flex" },
-                  // justifyContent:"center",
-                  // alignItems:"center",
                   p: 0,
                 }}
               >
@@ -107,9 +96,6 @@ const SecondBanner = () => {
                 sx={{
                   width: "100%",
                   height: "100%",
-                  //   left: "50%",
-                  //   top: "0",
-                  //   bottom: "0",
                   position: "absolute",
                   display: "flex",
                   justifyContent: "center",
@@ -118,30 +104,149 @@ const SecondBanner = () => {
               >
                 <Box
                   sx={{
-                      mr:"40px",
+                    boxShadow:
+                      "0px 7px 8px -4px rgb(105 105 105 / 20%), 0px 12px 17px 2px rgb(105 105 105 / 20%), 0px 5px 22px 4px rgb(105 105 105 / 35%)",
+                    mr: "40px",
                     border: "8px solid #F6F6F6",
                     width: "350px",
                     height: "270px",
                     borderRadius: "20px",
-                    boxShadow: "-40px, 40px rgba (85, 85, 85, 0.14)",
-                    backgroundImage: "linear-gradient(to right, #F9A8A5 , #E28A86)",
+                    backgroundImage:
+                      "linear-gradient(to right, #F9A8A5 , #E28A86)",
                   }}
                 >
-                  fgas
+                  <Box sx={{ display: "flex", position: "relative" }}>
+                    <Box>
+                      <Typography
+                        sx={{
+                          fontSize: "90px",
+                          fontWeight: "bold",
+                          lineHeight: "100px",
+                          color: "#ffff",
+                          margin: "22px 0 14px 32px",
+                        }}
+                      >
+                        50%
+                      </Typography>
+                    </Box>
+                    <Box
+                      sx={{
+                        width: "61px",
+                        height: "61px",
+                        margin: "12px 13px 0 0",
+                        position: "absolute",
+                        top: "0",
+                        right: "0",
+                      }}
+                    >
+                      <img
+                        src={SecondBoxDote}
+                        alt="Dots"
+                        width="100%"
+                        height="100%"
+                      />
+                    </Box>
+                  </Box>
+                  <Typography
+                    sx={{
+                      fontSize: "12px",
+                      fontWeight: "400",
+                      lineHeight: "22px",
+                      color: "#ffff",
+                      letterSpacing: "-0.3px",
+                      margin: "0px 0 10px 32px",
+                    }}
+                  >
+                    Bingun bagaimana caranya memulai bisnis <br />
+                    healthy beauty. Sedangkan demand di sektor <br />
+                    ini begitu melimpah.
+                  </Typography>
+                  <Typography
+                    sx={{
+                      fontSize: "10px",
+                      fontWeight: "400",
+                      lineHeight: "22px",
+                      color: "#ffff",
+                      letterSpacing: "-0.3px",
+                      margin: "0px 0 0px 32px",
+                      opacity: "40%",
+                    }}
+                  >
+                    source involve.cewekbanget.id/beautypreneur
+                  </Typography>
                 </Box>
                 <Box
                   sx={{
+                    boxShadow:
+                      "0px 7px 8px -4px rgb(105 105 105 / 20%), 0px 12px 17px 2px rgb(105 105 105 / 20%), 0px 5px 22px 4px rgb(105 105 105 / 35%)",
                     border: "8px solid #F6F6F6",
                     width: "350px",
                     height: "270px",
                     borderRadius: "20px",
-                    boxShadow: "-40px, 40px rgba (85, 85, 85, 0.14)",
-                    backgroundImage: "linear-gradient(to right, #F9A8A5 , #E28A86)",
+                    backgroundImage:
+                      "linear-gradient(to right, #F9A8A5 , #E28A86)",
                   }}
                 >
-                  fgas
+                  <Box sx={{ display: "flex", position: "relative" }}>
+                    <Box>
+                      <Typography
+                        sx={{
+                          fontSize: "90px",
+                          fontWeight: "bold",
+                          lineHeight: "100px",
+                          color: "#ffff",
+                          margin: "22px 0 14px 32px",
+                        }}
+                      >
+                        23,7%
+                      </Typography>
+                    </Box>
+                    <Box
+                      sx={{
+                        width: "61px",
+                        height: "61px",
+                        margin: "12px 13px 0 0",
+                        position: "absolute",
+                        top: "0",
+                        right: "0",
+                      }}
+                    >
+                      <img
+                        src={SecondBoxDote}
+                        alt="Dots"
+                        width="100%"
+                        height="100%"
+                      />
+                    </Box>
+                  </Box>
+                  <Typography
+                    sx={{
+                      fontSize: "12px",
+                      fontWeight: "400",
+                      lineHeight: "22px",
+                      color: "#ffff",
+                      letterSpacing: "-0.3px",
+                      margin: "0px 0 10px 32px",
+                    }}
+                  >
+                    Khawatir butuh modal usaha yang sangat
+                    <br /> besar. Padahal banyak cara agar dapat
+                    <br /> berbinis di sektor ini (Healthy Beauty)
+                  </Typography>
+                  <Typography
+                    sx={{
+                      fontSize: "10px",
+                      fontWeight: "400",
+                      lineHeight: "22px",
+                      color: "#ffff",
+                      letterSpacing: "-0.3px",
+                      margin: "0px 0 0px 32px",
+                      opacity: "40%",
+                    }}
+                  >
+                    source involve.cewekbanget.id/beautypreneur
+                  </Typography>
                 </Box>
-                {/* <Box sx={{ border: "1px solid black" }}>fdafs</Box> */}
               </Box>
             </Box>
           </Grid>
