@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import BeautieslifeIcons from "../../assets/BeautieslifeIcons.png";
+// import BeautieslifeIcons from "../../assets/BeautieslifeIcons.png";
 
-const SocialCards = () => {
+const SocialCards = ({ cardImg, cardText, width, height, padding, mb }) => {
   return (
     <Box
       sx={{
@@ -12,18 +12,30 @@ const SocialCards = () => {
         borderRadius: "16px",
         backgroundColor: "#ffff",
         boxShadow: "rgba(100, 100, 111, 0.2) 5px 5px 15px 2px",
-        padding: "30px 0 0 30px",
+        padding: padding ? padding : "20px 0 0 20px",
+        // margin:"0 50px 50px 0"
       }}
     >
       <Box
         sx={{
-          width: "170px",
-          height: "80px",
+          width: width ? width : "230px",
+          height: height ? height : "110px",
+          mb: mb ? mb : "5px",
         }}
       >
-        <img src={BeautieslifeIcons} alt="" width="100%" height="100%" />
+        <img src={cardImg} alt="" width="100%" height="100%" />
       </Box>
-      <Typography>SocialCards</Typography>
+      <Typography
+        sx={{
+          padding: padding ? "0" : "0px 0 0 12px",
+          fontSize: "14px",
+          lineHeight: "22px",
+          letterSpacing: "-0.3px",
+          color: "#888888",
+        }}
+      >
+        {cardText}
+      </Typography>
     </Box>
   );
 };
