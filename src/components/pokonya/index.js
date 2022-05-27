@@ -4,6 +4,7 @@ import Container from "../container";
 import PokonyaEllipse from "../../assets/PokonyaEllipse.png";
 import { Typography, Box, Grid } from "@mui/material";
 import ServiceCard from "../cards/serviceCard";
+import ServiceDots from "../../assets/ServiceDots.png";
 import Shape1 from "../../assets/Shape1.png";
 import Shape2 from "../../assets/Shape2.png";
 import Shape3 from "../../assets/Shape3.png";
@@ -41,6 +42,9 @@ const Pokonya = () => {
         // backgroundSize:"contain",
         // backgroundPosition:"center"
         backgroundColor: "#FEF8F8",
+        pb: "250px",
+        height: "600px",
+        mb: "230px",
       }}
     >
       <Container>
@@ -99,13 +103,33 @@ const Pokonya = () => {
             height="100%"
           />
           {/* </Box> */}
-          <Grid container spacing={4}>
+          <Grid
+            container
+            spacing={6}
+            sx={{ position: "relative", zIndex: "1" }}
+          >
             {cardDetails.map((items, index) => (
-              <Grid item >
+              <Grid item>
                 <ServiceCard items={items} />
               </Grid>
             ))}
           </Grid>
+          <Box
+            sx={{
+              width: "121px",
+              height: "148px",
+              position: "absolute",
+              left: "-51px",
+              bottom: "162px",
+            }}
+          >
+            <img
+              src={ServiceDots}
+              alt="ServiceDots"
+              width="100%"
+              height="100%"
+            />
+          </Box>
         </Box>
       </Container>
     </Box>

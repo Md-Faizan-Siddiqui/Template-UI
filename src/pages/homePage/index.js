@@ -5,6 +5,7 @@ import SecondBanner from "../../components/secondBanner";
 import NavBar from "../../components/navBar";
 import Beautyselling from "../../components/beautySelling"
 import Pokonya from "../../components/pokonya"
+import Mentor from "../../components/mentor";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <SecondBanner/>
       <Beautyselling/>
       <Pokonya/>
+      <Mentor/>
     </Grid>
   );
 };

@@ -39,7 +39,7 @@ const Beautyselling = () => {
       sx={{
         // backgroundColor:"#FEF8F8"
         px: "80px",
-        pb: "80px",
+        pb: "156px",
         backgroundImage: "linear-gradient(to top, #FEF8F8, #fff)",
         // backgroundImage: "linear-gradient(to top, #FFEEEE, #fff)",
       }}
