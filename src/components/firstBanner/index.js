@@ -40,7 +40,6 @@ const FirstBanner = () => {
                 lineHeight: "80px",
                 letterSpacing: "0.3px",
                 width: "593px",
-                // height: "160px",
                 mb: "30px",
               }}
             >
@@ -49,24 +48,6 @@ const FirstBanner = () => {
                 .
               </Box>
             </Typography>
-
-            {/* <Typography
-              sx={{
-                color: "#555555",
-                fontWeight: "700",
-                fontSize: "70px",
-                lineHeight: "80px",
-                letterSpacing: "0.3px",
-                width: "593px",
-                // height: "160px",
-                pb: "30px",
-              }}
-            >
-              kalo lari sendirian
-              <Box component="span" sx={{ color: "#EE9591" }}>
-                .
-              </Box>
-            </Typography> */}
             <Typography
               sx={{
                 color: "#888888",
@@ -75,7 +56,6 @@ const FirstBanner = () => {
                 lineHeight: "26px",
                 letterSpacing: "-0.3px",
                 width: "460px",
-                // height: "160px",
                 pb: "30px",
               }}
             >
@@ -155,7 +135,6 @@ const FirstBanner = () => {
               <Typography
                 sx={{
                   fontSize: "14px",
-                  // fontWeight:"bold",
                   color: "#F6F6F6",
                 }}
               >

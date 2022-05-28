@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-// import BeautieslifeIcons from "../../assets/BeautieslifeIcons.png";
 
 const SocialCards = ({ cardImg, cardText, width, height, padding, mb }) => {
   return (
@@ -8,12 +7,10 @@ const SocialCards = ({ cardImg, cardText, width, height, padding, mb }) => {
       sx={{
         width: "260px",
         height: "180px",
-        // border:"1px solid black",
         borderRadius: "16px",
         backgroundColor: "#ffff",
         boxShadow: "rgba(100, 100, 111, 0.2) 5px 5px 15px 2px",
         padding: padding ? padding : "20px 0 0 20px",
-        // margin:"0 50px 50px 0"
       }}
     >
       <Box

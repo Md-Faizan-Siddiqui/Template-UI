@@ -1,5 +1,4 @@
 import React from "react";
-// import { Box } from "@mui/system";
 import Container from "../container";
 import PokonyaEllipse from "../../assets/PokonyaEllipse.png";
 import { Typography, Box, Grid } from "@mui/material";
@@ -50,7 +49,6 @@ const Pokonya = () => {
       <Container>
         <Box
           sx={{
-            // display: "flex",
             position: "relative",
           }}
         >
@@ -82,13 +80,6 @@ const Pokonya = () => {
               .
             </Typography>
           </Box>
-          {/* <Box
-            sx={{
-              width: "383px",
-              height: "386px",
-              //   justifyContent: "flex-end",
-            }}
-          > */}
           <img
             style={{
               position: "absolute",
@@ -102,7 +93,6 @@ const Pokonya = () => {
             width="100%"
             height="100%"
           />
-          {/* </Box> */}
           <Grid
             container
             spacing={6}

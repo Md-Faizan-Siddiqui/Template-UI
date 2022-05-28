@@ -45,7 +45,6 @@ const ResponsiveAppBar = () => {
         display: "flex",
         justifyContent: "center",
         boxShadow: "none",
-        // mb: 9,
       }}
     >
       <Container maxWidth="xl">
@@ -72,7 +71,6 @@ const ResponsiveAppBar = () => {
             <Box
               sx={{
                 display: { xs: "flex", md: "none" },
-                // justifyContent: "flex-start",
                 width: { xs: "120px" },
                 height: { xs: "25px" },
               }}
@@ -82,7 +80,6 @@ const ResponsiveAppBar = () => {
 
             <Box
               sx={{
-                // flexGrow: 1,
                 display: { xs: "flex", md: "none" },
                 alignItems: "center",
               }}

@@ -40,6 +40,7 @@ const Mentor = () => {
     <Box
       sx={{
         position: "relative",
+        mb:"180px"
       }}
     >
       <img
@@ -50,7 +51,6 @@ const Mentor = () => {
           left: "0",
           top: "100px",
           zIndex: "-1",
-          //   height: "100%",
         }}
       />
       <Container>

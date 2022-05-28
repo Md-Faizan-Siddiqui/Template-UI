@@ -37,11 +37,9 @@ const Beautyselling = () => {
   return (
     <Box
       sx={{
-        // backgroundColor:"#FEF8F8"
         px: "80px",
         pb: "156px",
         backgroundImage: "linear-gradient(to top, #FEF8F8, #fff)",
-        // backgroundImage: "linear-gradient(to top, #FFEEEE, #fff)",
       }}
     >
       <Container>
@@ -88,9 +86,7 @@ const Beautyselling = () => {
           <Grid item xs="12" md="7">
             <Box
               sx={{
-                // ml:"20px",
                 mt: "25px",
-                // width: "534px",
                 height: "530px",
                 backgroundImage: `url(${BeautySellingEllipse})`,
                 backgroundSize: "contain",
@@ -98,7 +94,6 @@ const Beautyselling = () => {
                 backgroundPosition: "center",
               }}
             >
-              {/* <img src={BeautySellingEllipse} alt="BeautySellingEllipse" width="100%" height="100%"/> */}
               <Box
                 sx={{
                   display: "flex",
@@ -107,7 +102,6 @@ const Beautyselling = () => {
                 <Box>
                   <Box
                     sx={{
-                      // mt:"35px",
                       mr: "50px",
                       mb: "50px",
                     }}
@@ -186,7 +180,6 @@ const Beautyselling = () => {
               </Typography>
               <Typography
                 sx={{
-                  // fontWeight: "bold",
                   fontSize: "16px",
                   lineHeight: "28px",
                   letterSpacing: "-0.3px",
@@ -207,7 +200,6 @@ const Beautyselling = () => {
                     key={index}
                     sx={{
                       display: "flex",
-                      // mr: "20px",
                       color: "#888888",
                       fontWeight: "bold",
                       fontSize: "16px",
@@ -231,7 +223,6 @@ const Beautyselling = () => {
                   right: "0",
                   bottom: "-38px",
                   position: "absolute",
-                  // overflow:"hidden"
                 }}
               >
                 <img

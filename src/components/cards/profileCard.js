@@ -1,6 +1,5 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import ChantalShelburne from "../../assets/ChantalShelburne.png";
 
 const ProfileCard = ({ items }) => {
   console.log("items", items);
@@ -10,10 +9,8 @@ const ProfileCard = ({ items }) => {
         sx={{
           width: "274px",
           height: "320px",
-          //   backgroundColor: "#EE9591",
           mb: "26px",
           borderRadius: "16px",
-          //   position: "relative",
           filter: "drop-shadow(5px 5px 10px gray)",
         }}
       >
@@ -27,12 +24,9 @@ const ProfileCard = ({ items }) => {
             src={items.image}
             alt=""
             style={{
-              //   filter:"opacity(0.7)",
-              // position: "absolute",
               width: "100%",
               height: "100%",
               borderRadius: "16px",
-              //   overflow:"hidden"
             }}
           />
         </Grid>
@@ -62,7 +56,6 @@ const ProfileCard = ({ items }) => {
       <Typography
         sx={{
           color: "#EE9591",
-          //   fontWeight: "Bold",
           fontSize: "14px",
           lineHeight: "22px",
           letterSpacing: "0.2px",
@@ -74,7 +67,6 @@ const ProfileCard = ({ items }) => {
       <Typography
         sx={{
           color: "#888888",
-          //   fontWeight: "Bold",
           fontSize: "14px",
           lineHeight: "22px",
           letterSpacing: "0.2px",

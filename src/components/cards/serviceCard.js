@@ -3,7 +3,7 @@ import React from "react";
 import Shape1 from "../../assets/Shape1.png";
 import SmileFace from "../../assets/SmileFace.png";
 
-const ServiceCard = ({items}) => {
+const ServiceCard = ({ items }) => {
   return (
     <Box
       sx={{
@@ -11,7 +11,6 @@ const ServiceCard = ({items}) => {
         height: "200px",
         borderRadius: "16px",
         backgroundColor: "#ffff",
-        // textAlign:"center"
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
