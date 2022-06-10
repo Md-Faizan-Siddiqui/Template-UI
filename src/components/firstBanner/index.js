@@ -36,8 +36,8 @@ const FirstBanner = () => {
               sx={{
                 color: "#555555",
                 fontWeight: "700",
-                fontSize: "70px",
-                lineHeight: "80px",
+                fontSize: {xs:"50px",sm:"60px",lg:"70px"},
+                lineHeight: {xs:"60px",sm:"70px",lg:"80px"},
                 letterSpacing: "0.3px",
                 width: "593px",
                 mb: "30px",

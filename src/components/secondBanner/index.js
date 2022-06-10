@@ -14,7 +14,7 @@ const SecondBanner = () => {
     >
       <Container>
         <Grid container>
-          <Grid item xs="12" md="5" mt="95px">
+          <Grid item xs="12" lg="5" mt="95px">
             <Typography
               sx={{
                 fontSize: "40px",
@@ -51,14 +51,12 @@ const SecondBanner = () => {
                 mb: "23px",
               }}
             >
-              Bukan sekedar bisnis yang hits dengan segudang untung.
-              <br /> Tren
+              Bukan sekedar bisnis yang hits dengan segudang untung. Tren
               <b>
                 <u> beautypreneur</u>
               </b>{" "}
-              di Indonesia sudah mulai terlihat sejak
-              <br /> beberapa tahun terakhir, industri kecantikan dalam negeri
-              <br /> maulai berkembang pesat.
+              di Indonesia sudah mulai terlihat sejak beberapa tahun terakhir,
+              industri kecantikan dalam negeri maulai berkembang pesat.
             </Typography>
             <Box
               sx={{
@@ -69,7 +67,7 @@ const SecondBanner = () => {
               }}
             ></Box>
           </Grid>
-          <Grid item xs="12" md="7">
+          <Grid item xs="12" lg="7">
             <Box
               sx={{
                 width: "100%",
