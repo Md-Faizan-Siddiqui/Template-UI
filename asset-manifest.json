@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Template-UI/static/css/main.ffe34ec7.css",
+    "main.js": "/Template-UI/static/js/main.63cab231.js",
+    "static/js/787.349b0e60.chunk.js": "/Template-UI/static/js/787.349b0e60.chunk.js",
+    "static/media/1stBannerImg.png": "/Template-UI/static/media/1stBannerImg.adada1f62e9fbb020b5f.png",
+    "static/media/KyleeDanford.png": "/Template-UI/static/media/KyleeDanford.fe53e1fa55bb86d345b4.png",
+    "static/media/LauraleeQuintero.png": "/Template-UI/static/media/LauraleeQuintero.21122633498bde686e58.png",
+    "static/media/FreidaVarnes.png": "/Template-UI/static/media/FreidaVarnes.f891777ece1fec871a08.png",
+    "static/media/ChantalShelburne.png": "/Template-UI/static/media/ChantalShelburne.881c2774f56f292b34c6.png",
+    "static/media/signin.jpg": "/Template-UI/static/media/signin.bdf5f56e4b7ed1ec141b.jpg",
+    "static/media/ManagementIcons.png": "/Template-UI/static/media/ManagementIcons.3af85c7bef829a6e2a65.png",
+    "static/media/EnhanceChatIcons.png": "/Template-UI/static/media/EnhanceChatIcons.d2367a50e138949d455d.png",
+    "static/media/TestimonialImage.png": "/Template-UI/static/media/TestimonialImage.526fcb62a1ad80c99338.png",
+    "static/media/SocialIcons.png": "/Template-UI/static/media/SocialIcons.973d5f8ea6f5ebaed521.png",
+    "static/media/BeautySellingEllipse.png": "/Template-UI/static/media/BeautySellingEllipse.fdb6136b5bf5fc4d088d.png",
+    "static/media/Ellipse.png": "/Template-UI/static/media/Ellipse.b6a9cb46f8f8d04f6294.png",
+    "static/media/PokonyaEllipse.png": "/Template-UI/static/media/PokonyaEllipse.bd558695b58be65f99e2.png",
+    "static/media/MentorEllipse.png": "/Template-UI/static/media/MentorEllipse.d21caa008db0bbc8be17.png",
+    "static/media/Logo.png": "/Template-UI/static/media/Logo.4875a3c523479d43c0c6.png",
+    "static/media/BeautieslifeIcons.png": "/Template-UI/static/media/BeautieslifeIcons.dbe1c2a9d32b9f8503ae.png",
+    "static/media/FooterImage.png": "/Template-UI/static/media/FooterImage.4c6a217b83febfc8434a.png",
+    "index.html": "/Template-UI/index.html",
+    "main.ffe34ec7.css.map": "/Template-UI/static/css/main.ffe34ec7.css.map",
+    "main.63cab231.js.map": "/Template-UI/static/js/main.63cab231.js.map",
+    "787.349b0e60.chunk.js.map": "/Template-UI/static/js/787.349b0e60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe34ec7.css",
+    "static/js/main.63cab231.js"
+  ]
+}
