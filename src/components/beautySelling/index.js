@@ -56,9 +56,9 @@ const Beautyselling = () => {
               sx={{
                 color: "#555555",
                 fontWeight: "bold",
-                fontSize: "70px",
+                fontSize: { lg: "70px", md: "55px", sm: "39px" },
                 lineHeight: "80px",
-                mb: "40px",
+                mb: "25px",
               }}
             >
               Beauty Selling{" "}
@@ -83,7 +83,17 @@ const Beautyselling = () => {
               akan bebuah keberhasilan
             </Typography>
           </Box>
-          <Grid item xs="12" md="7">
+          <Grid
+            item
+            xs="12"
+            lg="7"
+            md="12"
+            sx={{
+              display: { md: "flex" },
+              justifyContent: { md: "center" },
+              mb: { md: "150px" },
+            }}
+          >
             <Box
               sx={{
                 mt: "25px",
@@ -145,7 +155,7 @@ const Beautyselling = () => {
               </Box>
             </Box>
           </Grid>
-          <Grid xs="12" md="5">
+          <Grid xs="12" lg="5" md="12">
             <Box
               sx={{
                 mt: "-24px",

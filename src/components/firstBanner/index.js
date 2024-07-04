@@ -24,7 +24,7 @@ const FirstBanner = () => {
     },
   };
   return (
-    <Box sx={{ backgroundColor: "#FEF8F8", pt: 9, px: "80px", pb: "119px" }}>
+    <Box sx={{ backgroundColor: "#FEF8F8", pt: 9, px: {lg:"80px", md:"40px",sm:"80px"}, pb: "119px" }}>
       <Container>
         <Grid container>
           <Grid item xs="12" md="6">
@@ -36,10 +36,10 @@ const FirstBanner = () => {
               sx={{
                 color: "#555555",
                 fontWeight: "700",
-                fontSize: {xs:"50px",sm:"60px",lg:"70px"},
-                lineHeight: {xs:"60px",sm:"70px",lg:"80px"},
+                fontSize: { xs: "50px", sm: "60px", lg: "70px", md:"50px" },
+                lineHeight: { xs: "60px", sm: "70px", lg: "80px" },
                 letterSpacing: "0.3px",
-                width: "593px",
+                // width: "593px",
                 mb: "30px",
               }}
             >
@@ -55,13 +55,13 @@ const FirstBanner = () => {
                 fontSize: "16px",
                 lineHeight: "26px",
                 letterSpacing: "-0.3px",
-                width: "460px",
+                // width: "460px",
                 pb: "30px",
               }}
             >
               Setiap hal pasti butuh hal lain untuk membersamai.
               <br /> Begitupun dengan bisnis, Beautieslfie.id hadir untuk
-              membersamai kalian untuk menjadi{" "}
+              membersamai <br /> kalian untuk menjadi{" "}
               <b>
                 <u>Beautypreneur</u>
               </b>
@@ -74,7 +74,7 @@ const FirstBanner = () => {
                   mr: "20px",
                   color: "#888888",
                   fontWeight: "bold",
-                  fontSize: "16px",
+                  fontSize: {lg:"16px", md:"15px", sm:"16px"},
                 }}
               >
                 <Box sx={style.circleBox}>
@@ -88,7 +88,7 @@ const FirstBanner = () => {
                   mr: "20px",
                   color: "#888888",
                   fontWeight: "bold",
-                  fontSize: "16px",
+                  fontSize: {lg:"16px", md:"15px", sm:"16px"},
                 }}
               >
                 <Box sx={style.circleBox}>
@@ -102,7 +102,7 @@ const FirstBanner = () => {
                   mr: "20px",
                   color: "#888888",
                   fontWeight: "bold",
-                  fontSize: "16px",
+                  fontSize: {lg:"16px", md:"15px", sm:"16px"},
                 }}
               >
                 <Box sx={style.circleBox}>
